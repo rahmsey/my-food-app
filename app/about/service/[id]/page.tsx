@@ -1,10 +1,19 @@
-import React from 'react'
+import React from "react";
 
-const ServiceDetailPage = async ({ params }) => {
-    const id = (await params).id;
-    return (
-    <div>ServiceDetailPage {id}</div>
-  )
+interface ServiceDetailPageProps {
+  params: {
+    id: string;
+  };
 }
 
-export default ServiceDetailPage
+const ServiceDetailPage = async ({ params }: ServiceDetailPageProps) => {
+  const id = params.id;
+
+  return (
+    <div>
+      ServiceDetailPage {id}
+    </div>
+  );
+};
+
+export default ServiceDetailPage;
