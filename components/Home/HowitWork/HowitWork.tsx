@@ -5,7 +5,7 @@ const HowitWork = () => {
   return (
     <div className="pt-16 pb-16">
       <h1 className="text-xl sm:text-2xl text-center font-semibold">
-        Let's See How It Works
+        {"Let's See How It Works"}
       </h1>
 
       <div className="w-[80%] mx-auto mt-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">

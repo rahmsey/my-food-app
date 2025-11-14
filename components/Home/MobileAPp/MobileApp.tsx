@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { FaApple, FaGooglePay, FaGooglePlay } from 'react-icons/fa'
+import { FaApple,  FaGooglePlay } from 'react-icons/fa'
 
 const MobileApp = () => {
   return (

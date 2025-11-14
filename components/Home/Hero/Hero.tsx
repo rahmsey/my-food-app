@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { FaApple, FaGooglePay, FaLocationArrow } from 'react-icons/fa'
+import { FaApple, FaLocationArrow } from 'react-icons/fa'
 import { FaGooglePlay } from 'react-icons/fa6'
 import { GrMapLocation } from 'react-icons/gr'
 
